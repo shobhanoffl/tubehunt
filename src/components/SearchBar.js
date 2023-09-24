@@ -41,7 +41,7 @@ export default function SearchBar() {
                 const isoAfter = newpublishedAfter.toISOString();
                 const isoBefore = newpublishedBefore.toISOString();
                 // const url = "https://content-youtube.googleapis.com/youtube/v3/search?publishedAfter=2018-12-12T00%3A00%3A00.000Z&part=snippet&publishedBefore=2018-12-14T00%3A00%3A00.000Z&q=rajini&maxResults=5&order=title&key=AIzaSyB70-KwROYPjYYmmATAPR1SFtRdnLouirQ&videoDefinition=any"
-                const url = "https://content-youtube.googleapis.com/youtube/v3/search?publishedAfter=" + isoAfter + "&part=snippet&publishedBefore=" + isoBefore + "&q=" + query + "&maxResults=5&order=" + order + "&key=AIzaSyB70-KwROYPjYYmmATAPR1SFtRdnLouirQ&videoDefinition=" + videoDefinition + "&videoDuration=" + videoDuration;
+                const url = "https://content-youtube.googleapis.com/youtube/v3/search?&type=video&publishedAfter=" + isoAfter + "&part=snippet&publishedBefore=" + isoBefore + "&q=" + query + "&maxResults=5&order=" + order + "&key=AIzaSyB70-KwROYPjYYmmATAPR1SFtRdnLouirQ&videoDefinition=" + videoDefinition + "&videoDuration=" + videoDuration;
 
                 const response = await fetch(url);
                 const data = await response.json();
@@ -102,7 +102,7 @@ export default function SearchBar() {
                         </span>
                         <span className='radio'>
                             <input type="radio" id="high" checked={videoDefinition === "high"} name="videoDefinition" value="high" onChange={(e) => setVideoDefinition(e.target.value)} />
-                            <label className='radio-label' htmlFor="high">Very High</label>
+                            <label className='radio-label' htmlFor="high">High</label>
                         </span>
                     </div>
                     <br />
