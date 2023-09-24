@@ -169,7 +169,7 @@ export default function SearchBar() {
                             ))}
                         </div>
                     ) : (
-                        <p className='subtitle' style={{fontFamily:'Raleway',textAlign:'center'}}>Fill the details and Hit the 'Hunt It!' Tip: Try altering the filters if no results are not obtained even after searching</p>
+                        <p className='subtitle' style={{fontFamily:'Raleway',textAlign:'center'}}>Fill the details and Hit the 'Hunt It!' <br /> Tip: Try altering the filters if no results are not obtained even after searching</p>
                     )}
                 </div>
                 {/* Videos */}
