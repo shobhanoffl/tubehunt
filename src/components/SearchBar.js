@@ -102,7 +102,7 @@ export default function SearchBar() {
                         </span>
                         <span className='radio'>
                             <input type="radio" id="high" checked={videoDefinition === "high"} name="videoDefinition" value="high" onChange={(e) => setVideoDefinition(e.target.value)} />
-                            <label className='radio-label' htmlFor="high">High</label>
+                            <label className='radio-label' htmlFor="high">Very High</label>
                         </span>
                     </div>
                     <br />

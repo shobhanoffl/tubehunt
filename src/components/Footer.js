@@ -6,7 +6,7 @@ export default function Footer() {
     <div>
         <footer class="footer">
             <p>A YouTube Video Hunting Tool Created by <a href='https://linkedin.com/in/shobhanoffl'>me</a></p>
-            <p><a href='https://linkedin.com/in/shobhanoffl'>Click here</a> to know more on TubeHunter</p>
+            <p><a href='https://github.com/shobhanoffl/tubehunter'>Click here</a> to know more on TubeHunter</p>
         </footer>
     </div>
   )
