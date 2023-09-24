@@ -1,0 +1,19 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: hsl(215, 28%, 17%);
+    color: #9CA3AF;
+    text-align: center;
+    font-size: 14px;
+ }
+
+a{
+    text-decoration: underline;
+    color: #9CA3AF;
+}
+
+p{
+    margin: 8px;
+}

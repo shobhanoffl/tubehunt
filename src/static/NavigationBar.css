@@ -1,0 +1,30 @@
+.topnav {
+  background-color: #1F2937;
+  overflow: hidden;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  padding-top: 1vh;
+  /* padding-bottom: 1vh; */
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 5px;
+}
+
+.topnav a.split:hover {
+  background-color: #851be8;
+  color: #fff;
+}
+
+.topnav a.split {
+  float: right;
+  background-color: #9233EB;
+  color: white;
+  border-radius: 10px;
+}

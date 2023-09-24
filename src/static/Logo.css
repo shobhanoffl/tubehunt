@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.tube{
+    color: 	#9728ff;
+    font-weight: 800;
+    font-family: 'Parisienne', cursive;
+}
+
+.hunter{
+    margin-left: 6px;
+    padding-top: 10px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #1F2937;
+}
