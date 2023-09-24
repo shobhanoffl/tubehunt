@@ -73,6 +73,7 @@ export default function SearchBar() {
             <div className='search-bar'>
                 <div className='search-filter'>
                     <h1><Logo /></h1>
+                    <div className='subhead'>An Advanced YouTube Video Searching Tool</div>
                     {/* Forms */}
                     <input type="text" id="query" name="query" placeholder="Search" value={query} onChange={(e) => setQuery(e.target.value)} required />
                     <br />
